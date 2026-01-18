@@ -161,5 +161,9 @@ background-size: cover;
   margin: 0;
   line-height: 20px;
   color: #838383;
-
+}
+.card__content{
+   font-size: 14px;
+  margin: 0;
+  
 }
