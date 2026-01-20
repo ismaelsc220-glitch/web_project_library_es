@@ -234,7 +234,7 @@ background-size: cover;
   flex-shrink: 0;
   flex-basis: 780px;
   max-width: 780px;
-  position: ;
+  position: relative ;
 }
 
 .events__image {
@@ -243,7 +243,7 @@ background-size: cover;
 
 
 .person {
- position: absolute;
+  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -251,26 +251,34 @@ background-size: cover;
 }
 
 .person_name_feynman {
-  position: relative ;
+  position: absolute ;
   top: -30px;
   right: 319px;
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  
 }
 
 .person_name_burbidge {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute ;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  bottom: 18px;
+  right: 216px;
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+ position: absolute;
+ bottom: 82px;
+ left: 142px;
 }
 
 .person_name_tarter {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  position: absolute;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -290,7 +298,7 @@ background-size: cover;
 }
 
 .person__caption {
-  /* text-align: center;
+  text-align: center;
   font-size: 14px;
-  margin: 0; */
+  margin: 0; 
 }
